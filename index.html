@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sahana S | Professional Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&family=Inter:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="logo">SAHANA<span> .S</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <a href="resume.pdf" class="btn-resume" target="_blank">Resume <i class="fas fa-arrow-right"></i></a>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="badge">Available for Internships</div>
+            <h1>Innovating at the intersection of <span class="gradient-text">AI & Engineering</span></h1>
+            <p>Computer Science student at Impact College of Engineering with a 7.9 CGPA. Passionate about building
+                intelligent systems and scalable web solutions.</p>
+            <div class="hero-socials">
+            <a href="https://linkedin.com/in/sahana-s-744591296" target="_blank" aria-label="LinkedIn">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/Sahana3411" target="_blank" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+            <div class="hero-btns">
+                <a href="#projects" class="btn-primary" style="color: rgb(170, 180, 251);">View Projects</a>
+                <a href="#contact" class="btn-secondary" style="color: rgb(170, 180, 251);">Get in touch</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">Background & Skills</h2>
+            <div class="about-wrapper">
+                <div class="education-timeline">
+                    <div class="timeline-item">
+                        <h4>Bachelor of Engineering</h4>
+                        <p>Impact College of Engineering • 2022 - Present</p>
+                        <span class="grade">CGPA: 7.9/10</span>
+                    </div><br>
+                    <div class="timeline-item">
+                        <h4>Pre-University (12th)</h4>
+                        <p>Swamy Vivekananda Rural PU College • 2021</p>
+                        <span class="grade">Percentage: 89.5%</span>
+                    </div><br>
+                </div>
+                <div class="skills-container">
+                    <div class="skill-category">
+                        <h5>Technical Stack</h5>
+                        <div class="tags">
+                            <span>Python</span> <span>Java</span> <span>React</span> <span>MySQL</span> <span>C</span>
+                            <span>NLP</span>
+                        </div><br>
+                    </div>
+                    <div class="skill-category">
+                        <h5>Certifications</h5>
+                        <div class="tags">
+                            <span>Postman API Expert</span> <span>Machine Learning</span> <span>Figma</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section dark-bg">
+        <div class="container">
+            <h2 class="section-title white">Selected Works</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <div class="card-top">
+                        <i class="fas fa-brain"></i>
+                        <h3>AI Omni Talk</h3>
+                    </div>
+                    <p>An assistive AI platform enabling gesture, text, and speech communication for differently-abled
+                        users.</p>
+                    <div class="card-footer"><span>Python</span><span>AI</span></div>
+                </div>
+                <div class="project-card">
+                    <div class="card-top">
+                        <i class="fas fa-hospital"></i>
+                        <h3>Healthcare Bot</h3>
+                    </div>
+                    <p>NLP-based healthcare assistant developed during an internship with Microsoft & SAP (Tech
+                        Saksham).</p>
+                    <div class="card-footer"><span>NLP</span><span>Internship</span></div>
+                </div>
+                <div class="project-card">
+                    <div class="card-top">
+                        <i class="fas fa-code"></i>
+                        <h3>College CMS</h3>
+                    </div>
+                    <p>A full-stack Management System with CRUD operations for student and faculty data handling.</p>
+                    <div class="card-footer"><span>Java</span><span>MySQL</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-text">
+                    <h2>Let's collaborate</h2>
+                    <p>I'm currently seeking opportunities to apply my skills in a professional setting. Reach out via
+                        the form or email!</p>
+                    <p class="email-link"><i class="fas fa-envelope"></i> sahana11403@gmail.com</p>
+                </div>
+                <form id="contactForm" class="glass-form">
+                    <div class="input-group">
+                        <input type="text" id="name" placeholder="Full Name" required>
+                        <input type="email" id="email" placeholder="Email Address" required>
+                    </div>
+                    <input type="text" id="subject" placeholder="Subject" required>
+                    <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="submit-btn">Send Inquiry <i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
